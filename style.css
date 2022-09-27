@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 650px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 65px auto;
+    background-color: white;
+}
+
+.btn {
+    background-color: #FFFF00;
+    color: black;
+    font-size: 25px;
+    display: block;
+    margin: 25px auto;
+    height: 85px;
+    width: 150px;
+    border-bottom: 5px solid #FFD700;
+}
+
+.btn:hover {
+    background-color: #FFD700;
+    border-bottom: 5px solid #FFFF00;
+}
+
+
+.historic {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    margin-left: 20px;
+    bottom: 468px;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.legenda {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+}
+
+.corbox {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
